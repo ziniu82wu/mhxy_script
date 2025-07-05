@@ -9,7 +9,7 @@ class Shopping3:
         init()
         now = datetime.datetime.now()
         self._startTime = datetime.datetime(now.year, now.month, now.day, 12, 8)
-        self._time = self._startTime + datetime.timedelta(hours=2, minutes=11)
+        self._time = now
         super().__init__()
 
     def _refresh(self):
